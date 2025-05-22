@@ -34,7 +34,7 @@ class Modification {
 }
 
 export let MODIFICATIONS = new Map([
-    ["1", new Modification("Vanilla", "vanilla.json", false)],
+    ["1", new Modification("Vanilla", "vanilla.json", false)]
 ])
 
 let DEFAULT_MODIFICATION = "2-0-10"
@@ -42,11 +42,7 @@ let DEFAULT_MODIFICATION = "2-0-10"
 // Ideally we'd write this as a generalized function, but for now we can hard-
 // code these version upgrades.
 var modUpdates = new Map([
-    ["2-0-6", "2-0-10"],
-    ["2-0-7", "2-0-10"],
-    ["1-1-19", "1-1-110"],
-    ["1-1-19x", "1-1-110x"],
-    ["space-age-2-0-10", "space-age-2-0-11"],
+    ["1", "2-0-10"]
 ])
 
 function normalizeDataSetName(modName) {
